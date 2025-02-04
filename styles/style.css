@@ -1,0 +1,22 @@
+
+.list {
+    display: flex;
+    gap: 15px;
+    
+}
+.hero {
+    background-image: url(../images/premium_dancer.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+}
+.box {
+    background-color: aqua;
+    display: flex;
+    justify-content: right;
+}
+
+.h1 {
+    font-color: red;
+}
