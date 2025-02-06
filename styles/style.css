@@ -2,21 +2,54 @@
 .list {
     display: flex;
     gap: 15px;
+    color: white;
     
 }
 .hero {
-    background-image: url(../images/premium_dancer.png);
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 500px;
+    
     
 }
 .box {
     background-color: aqua;
     display: flex;
     justify-content: right;
+    height: 50vh;
+    
 }
 
-.h1 {
-    font-color: red;
+.header {
+    position:sticky;
+    top: 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
+.logo {
+    display: flex;
+    width: 110px;
+}
+.h1 {
+    display: flex;
+    font-size: 80px;
+    color: white;
+    margin-left: 0%;
+    
+}
+.dancer {
+    display: flex;
+    padding-right: 0%;
+}
+
+
+    
+
+
+
+
