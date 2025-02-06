@@ -5,23 +5,15 @@
     color: white;
     
 }
-.hero {
-    background-size: cover;
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 500px;
-    
-    
-}
+
 .box {
+    background-image: image();
     background-color: aqua;
     display: flex;
     justify-content: right;
     height: 50vh;
     
 }
-
 .header {
     position:sticky;
     top: 0px;
@@ -40,16 +32,20 @@
     font-size: 80px;
     color: white;
     margin-left: 0%;
-    
 }
-.dancer {
+
+.box image {
     display: flex;
-    padding-right: 0%;
+    justify-content: flex-end;
 }
 
+@media (min-width: 768px)
+    .container-logo {
+        width: 100%;
+    }
+    .list {
+        width: 100%;
+    }
 
-    
 
-
-
-
+@media (min-width: 412px)
